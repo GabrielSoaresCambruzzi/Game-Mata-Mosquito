@@ -57,7 +57,7 @@ function posicaoRandomica() { //funcao para adicionar no final do body
     }
 
 let posicaox = Math.floor(Math.random() * largura) - 90//gerar uma lagura aleatoria da tela
-var posicaoy = Math.floor(Math.random() * altura) - 90 //gerar uma altura aleatoria da tela
+let posicaoy = Math.floor(Math.random() * altura) - 90 //gerar uma altura aleatoria da tela
 
 //retirar a posibilidade de posiçoes negativa serem criadas
 posicaox = posicaox < 0 ? 0 : posicaox 
